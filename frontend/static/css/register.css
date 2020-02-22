@@ -1,0 +1,28 @@
+/*@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.card2{
+    height: 470px;
+    margin-top: 10%;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    
+    }
+label{
+    color: black;
+}
+h1,p{
+    color: white;
+}
+input{
+    width: 70%;
+}
+ul {
+    border: 2px solid black;
+  }
+li:hover {
+    background-color:  	lightskyblue;
+  }
+li:target {
+    background-color: black;
+  }

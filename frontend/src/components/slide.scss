@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+.slide{
+    background-image: url('/static/swimmer.jpg');
+    height:600px;
+    color: white;
+    display: grid;
+    padding-left: 100px;
+    padding-right: 100px;
+    grid-template-rows: 1fr 1fr 1fr ;
+    &__font{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    &__quote{
+        font-family: 'Courgette', cursive;
+        font-size: 30px;
+        display: grid;
+        justify-content: center;
+        align-items: start;
+        
+        
+    }
+    &__author{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        #first{
+            margin-right: 20px;
+        }
+        #second{
+            margin-right: 20px;
+        }
+        #third{
+            margin-right: 20px;
+        }
+        &__radio{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: auto auto auto;
+        }
+
+    }
+}

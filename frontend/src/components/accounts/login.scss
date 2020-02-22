@@ -1,0 +1,102 @@
+$bg-img: url('/static/woda_register.jpg');
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+    
+}
+// .background{
+//     background-color: #DCDCDC;
+//     height: 100vh;
+// }
+.login-panel{
+    background-color:blue;
+    position: relative;
+    // top: 50%;
+    transform: translateY(50%);
+	text-align:center;
+    width:70%;
+	right:0;left:0;
+    margin:auto;
+    height:400px;
+    
+    background-color: #444444;
+    &__register{
+        color:white;
+        width:30%;
+        padding:0 50px;
+        top:30%;
+        right:0;
+        position:absolute;
+        text-align:left;
+        [type="submit"]{
+            box-shadow: 3px 4px 0px 0px #8a2a21;
+            background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+            background-color:#c62d1f;
+            border-radius:18px;
+            border:1px solid #d02718;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:17px;
+            padding:7px 25px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #810e05;
+        }
+    }
+    &__login{
+        background-color: rgba(255,255, 255, 1);
+        height:500px;
+        position:absolute;
+        top:-50px;
+        width:50%;
+        right:calc(50% - 50px);
+        transition:.3s ease-in-out;
+        z-index:0;
+        box-shadow: 0 0 15px 9px #00000096;
+    //     &__show[type="text"],&__show[type="password"]{
+    //         width: 100%;
+    //         display: block;
+    //         margin:20px 0;
+    //         padding: 15px;
+    //         border: 1px solid #b5b5b5;
+    //         outline: none;
+    // }
+        &__show{
+            margin-top: 50px;
+            [type="text"],[type="password"]{
+                width: 90%;
+                display: block;
+                margin:20px 0 0 20px;
+                padding: 15px;
+                border: 1px solid #b5b5b5;
+                outline: none;
+            }
+            [type="submit"]{
+                margin: 20px 50px;
+                max-width: 150px;
+                width: 100%;
+                background: #444444;
+                color: #f9f9f9;
+                border: none;
+                padding: 10px;
+                text-transform: uppercase;
+                border-radius: 2px;
+                float:right;
+                cursor:pointer;
+
+            }
+        }
+    &__register{
+        width:30%;
+        padding:0 50px;
+        top:30%;
+        right:0;
+        position:absolute;
+        text-align:left;
+    }
+}
+}

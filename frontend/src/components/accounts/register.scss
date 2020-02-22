@@ -1,0 +1,96 @@
+// $bg-img: url('/static/woda_register.jpg');
+// .background{
+//     // background-image: 
+//     // linear-gradient(yellow, black),$bg-img;
+//     background-position: 0 0;
+//     min-height:1000px;
+//     background-size: cover;
+//     background-blend-mode: saturation;
+// }
+ .register_page{
+     background-color: #DCDCDC;
+     height: 100vh;
+//     background-image: 
+//     linear-gradient(yellow, black),$bg-img;
+//     background-position: 0 0;
+//     min-height:1000px;
+//     background-size: cover;
+//     background-blend-mode: saturation;
+    
+}
+.icon1{
+    position: absolute;
+    right:16%;
+    top:16%;
+}
+.icon2{
+    position: absolute;
+    right:16%;
+    top:31%;
+}
+.icon3{
+    position: absolute;
+    right:16%;
+    top:46%;
+    :hover{
+        background-color: green;
+    }
+}
+.icon4{
+    position: absolute;
+    right:16%;
+    top:61%;
+}
+.register-panel{
+    position: relative;
+    transform: translateY(30%);
+    text-align:center;
+    width:30%;
+	right:0;left:0;
+    margin:auto;
+    height:600px;
+    border-color:grey;
+    border-width: 3px;
+    background-color: white;
+    border-style: solid;
+    &__elements{
+        width:90%;
+        padding:0 50px;
+        margin:auto;
+        transform: translateY(10%);
+        right:0;
+        left:0;
+        text-align:center;
+        &__label{
+            margin-bottom: 30px;
+        }
+        &__input{
+            &__field{
+                position: relative;
+                width: 100%; 
+                padding: 10px; 
+                background: #fcfcfc;
+                
+            }
+        }
+        [type="text"],[type="password"],[type="email"]{
+            border-radius: 15px;
+            width:100%;
+            text-align: left;
+            margin-bottom: 30px;
+            border-width: 3px;
+            height: 50px;
+            color: black;
+        }
+        
+        [type="submit"]{
+            border-radius: 15px;
+            width:90%;
+            margin-bottom: 30px;
+            border-width: 3px;
+            height: 50px;
+            color: black;
+            background-image: linear-gradient(to left, #74ebd5, #9face6)
+        }
+    }
+}

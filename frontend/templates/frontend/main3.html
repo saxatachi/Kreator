@@ -1,0 +1,16 @@
+{% comment %} {% extends "index.html" %}
+{% block content %} 
+{% if user.is_authenticated %}
+        <h2>Jebac disa</h2>
+        log="zalogowany"
+        user={{user.username}}
+        <h2>Your name is: {{user.username }}</h2>
+        {% else %}
+            user="brak"
+                <h2>You are not logged in</h2>
+            {% endif %}
+    <div id='root_calendar'>
+        
+    </div>
+
+{% endblock %} {% endcomment %}
