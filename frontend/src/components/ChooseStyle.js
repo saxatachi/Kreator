@@ -139,7 +139,9 @@ class ChooseStyle extends Component {
                 
                 
                 <div className="styles__submit">
-                    <input type="submit" value="Wybierz" onClick={this.handleSubmit} />
+                    <button className="button__pointer" onClick={this.handleSubmit}><span><i class="fas fa-hand-pointer fa-2x"></i></span>Wybierz</button>
+                    {/* <input type="submit" value="Wybierz" onClick={this.handleSubmit} /> */}
+                    <button className="button__break" onClick={this.handleBreak}><span><i class="fas fa-hand-pointer fa-2x"></i></span>Wybierz</button>
                     <input type="submit" value="Zaakceptuj przerwy" onClick={this.handleBreak} />
                 </div>
                 {this.state.break ? timebreak : null}

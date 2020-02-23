@@ -79,6 +79,7 @@
     flex-basis: 15%;
     
 }
+
 .list-group{
     border: 2px solid black;
     list-style-position:inside;
@@ -122,6 +123,7 @@ input{
 }
 .manual{
     margin-top: 10px;
+    
 }
 
 .manual{
@@ -136,13 +138,13 @@ input{
 }
 form {
     input{
-        width: 566px;
+        width: 100%;
         margin-bottom: 10px;
         // margin-top: 20px;
 
     }
     textarea{
-        width: 566px;
+        width: 100%;
     }
 }
 .styles__list{
@@ -311,3 +313,35 @@ form {
   transform:  translate(-50%,-50%) scale(1);
 
  } 
+ .button__pointer{
+     border-radius: 10px;
+     background-color: rgb(255, 38, 0);
+     height:50px;
+     position: relative;
+     text-transform: capitalize;
+     font-size: 20px;
+     font-weight: 600;
+
+     
+    
+      span:after{
+        display:block;
+        position: absolute;
+        content:"";
+        width:2px;
+        height:45px;
+        background:orange;
+        top: -7%;
+        left: 150%;
+        // display:block;
+        // position: absolute;
+        }
+          span{
+            display:block;
+            top:8%;
+            left:5%;
+            display:block;
+            position: absolute;
+            color: orange;
+      }
+ }

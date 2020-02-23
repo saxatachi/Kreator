@@ -20,7 +20,19 @@
 .fc-header-toolbar{
     
     height:30px;
+}
+.fc-day{
+    background-color: rgb(236, 235, 235);
 }  
 .fc-day-top{
     background-color: rgba(255, 255, 0, 0.521) !important;
+    .alert-info{
+        background-color: red;
+    }
 }
+.fc-day-number{
+    font-weight: 600;
+}
+// .alert-info{
+//     background-color: red;
+// }
